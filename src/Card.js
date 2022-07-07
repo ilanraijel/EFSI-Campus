@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from 'react-bootstrap';
-import inscipcion from "../img/inscipcion.jpeg"
+import Card from 'react-bootstrap/Card';
+import inscipcion from "./inscipcion.jpeg";
 
-const Card = () => {
+function Cards(){
     return ( 
         <Card>            
             <Card.Body>
@@ -16,4 +16,4 @@ const Card = () => {
      );
 }
  
-export default Card;
+export default Cards;

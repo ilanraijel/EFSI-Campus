@@ -1,38 +1,38 @@
 import React from 'react';
-import Header from './Header';
+import Navbar from './Navbar';
 import Footer from './Footer';
-import Card from './Card';
+import Cards from './Card';
 import './App.css';
 
 function App() {
-  console.log(Header)
+  console.log(Navbar)
   return (
     <>
-    <Header />
+    <Navbar />
     <br></br>
     <br></br><br></br>
     <div className="container">
       <div className="row">
         <div className="col-md-3">
-          <Card />
+          <Cards />
         </div>
         <div className="col-md-6">
-          <Card />
+          <Cards />
         </div>
         <div className="col-md-3">
-          <Card />
+          <Cards />
         </div>
       </div>
       <br></br>
       <div className="row">
         <div className="col-md-3">
-          <Card />
+          <Cards />
         </div>
         <div className="col-md-6">
-          <Card />
+          <Cards/>
         </div>
         <div className="col-md-3">
-          <Card />
+          <Cards />
         </div>
       </div>
     </div>
