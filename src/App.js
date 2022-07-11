@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Cards from './Card';
+import Banner from './Banner';
 import './App.css';
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <br></br>
-    <br></br><br></br>
+    <Banner></Banner>
     <div className="container">
       <div className="row">
         <div className="col-md-3">
@@ -23,8 +23,7 @@ function App() {
           <Cards />
         </div>
       </div>
-      <br></br>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-md-3">
           <Cards />
         </div>

@@ -2,6 +2,12 @@
   max-width: 1300px;
 }
 
+.cardsTitle {
+  color: #039be5;
+  font-weight: 400;
+  font-size: 19px;
+}
+
 .header-campus {
   background: #FFF;
 }
